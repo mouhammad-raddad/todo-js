@@ -3,7 +3,7 @@ let done = [];
 let y;
 
 function add(){
-    let x = "<p><button onclick='remove()'>*</button>" + document.getElementById("myText").value + "</p>";
+    let x = "<p><button id='ibu' class='btn btn-outline-primary btn-sm' onclick='remove()'>✓</button>" + document.getElementById("myText").value + "</p>";
     y=x;
     pending.push(x);
     document.getElementById("myText").value="";
